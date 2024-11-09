@@ -41,8 +41,7 @@ def print_report(book_path, words, characters):
     print(f"--- Begin report of {book_path} ---")
     print(f"{words} words found in the document\n")
     for c in characters:
-        print(c)
-#        print(f"The '{c["char"]}' was found {c["count"]} times")
+        print(f"The '{c["char"]}' was found {c["count"]} times")
     print("--- End report ---")
 
 
